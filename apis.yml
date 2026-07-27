@@ -1,8 +1,24 @@
 aid: i-incubator-healthcare
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/i-incubator-healthcare.png
 name: i-Incubator Healthcare
-description: 'i-Incubator Healthcare is a company surfaced as a portfolio company of idg-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'i-Incubator Healthcare is a pharmaceutical innovation incubator established by IDG Capital
+  and officially launched in Shanghai (Xuhui District) in 2024. It operates an "incubation + empowerment"
+  model to develop innovative drug-research programs across oncology, immunology, and metabolic disease
+  areas, pairing global innovation perspectives with China-based execution to advance projects to
+  international quality standards. It is backed by a dedicated, long-horizon (15-year) incubation fund.
+  Surfaced as a portfolio company of idg-capital; this is a research/biotech venture with no public
+  developer or API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/i-incubator-healthcare/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +28,25 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Healthcare
+- Pharmaceuticals
+- Biotech
+- Drug Discovery
+- Oncology
+- Immunology
+- Incubator
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
